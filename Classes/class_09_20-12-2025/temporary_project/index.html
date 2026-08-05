@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Student Registration Form</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    padding: 20px;
+                    background-color: #f4f4f4;
+                }
+                h1 {
+                    text-align: center;
+                }
+                form {
+                    background: #fff;
+                    padding: 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    max-width: 600px;
+                    margin: auto;
+                }
+                div {
+                    margin-bottom: 15px;
+                }
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                div.g-h-c {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+                input[type="text"],
+                input[type="email"],
+                input[type="tel"],
+                input[type="date"],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    box-sizing: border-box;
+                }
+                button {
+                    padding: 10px 15px;
+                    background-color: #28a745;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button[type="reset"] {
+                    background-color: #dc3545;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Student Registration Form</h1>
+            <form action="post">
+                <div>
+                    <label for="f-name">First Name</label>
+                        <input type="text" name="f-name" id="f-name" placeholder="Enter your first name" autofocus required>
+                </div>
+                <div>
+                    <label for="l-name">Last Name</label>
+                        <input type="text" name="l-name" id="l-name" placeholder="Enter your last name" required>
+                </div>
+                <div>
+                    <label for="b-date">Date of Birth</label>
+                        <input type="date" name="b-date" id="b-date" required>
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                </div>
+                <div>
+                    <label for="mobile-no">Mobile Number</label>
+                        <input type="tel" name="mobile-no" id="mobile-no" placeholder="Enter your mobile number" required>
+                </div>
+                <div class="g-h-c">
+                    <label id="gender">Gender</label>
+                        <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="30" rows="2" required></textarea>
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <select name="country" id="country" required>
+                        <option value="country" disabled selected>Select your country</option>
+                        <option value="country">Pakistan</option>
+                        <option value="country">India</option>
+                        <option value="country">China</option>
+                        <option value="country">United States</option>
+                        <option value="country">Indonesia</option>
+                        <option value="country">Nigeria</option>
+                        <option value="country">Brazil</option>
+                        <option value="country">Bangladesh</option>
+                        <option value="country">Russia</option>
+                        <option value="country">Mexico</option>
+                        <option value="country">Other</option>
+                    </select>
+                <div>
+                    <label for="city">City</label>
+                    <select name="city" id="city" required>
+                        <option value="city" disabled selected>Select your city</option>
+                        <option value="city">Karachi</option>
+                        <option value="city">Lahore</option>
+                        <option value="city">Faisalabad</option>
+                        <option value="city">Rawalpindi</option>
+                        <option value="city">Gujranwala</option>
+                        <option value="city">Peshawar</option>
+                        <option value="city">Multan</option>
+                        <option value="city">Hyderabad</option>
+                        <option value="city">Islamabad</option>
+                        <option value="city">Quetta</option>
+                        <option value="city">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="postal-code">Postal Code</label>
+                        <input type="text" name="postal-code" id="postal-code" placeholder="Enter your code" required>
+                </div>
+                <div>
+                    <label for="hobbies">Hobbies</label>
+                        <input type="checkbox" name="hobbies" id="hobbies-sketching">
+                    <label for="hobbies-sketching">Sketching</label>
+                        <input type="checkbox" name="hobbies" id="hobbies-singing">
+                    <label for="hobbies-singing">Singing</label>
+                        <input type="checkbox" name="hobbies" id="hobbies-dancing">
+                    <label for="hobbies-dancing">Dancing</label>
+                        <input type="checkbox" name="hobbies" id="hobbies-gaming">
+                    <label for="hobbies-gaming">Gaming</label>
+                        <input type="checkbox" name="hobbies" id="hobbies-other">
+                    <label for="hobbies-other">Other</label>
+                </div>
+                <div class="g-h-c">
+                    <label for="qualification">Qualification</label>
+                    <select name="qualification" id="qualification" required>
+                        <option value="qualification">Select your qualification</option>
+                        <option value="qualification">Matric</option>
+                        <option value="qualification">Intermediate</option>
+                        <option value="qualification">Graduate</option>
+                    </select>
+                </div>
+                <div class="g-h-c">
+                    <label id="course">Course</label>
+                        <input type="radio" name="course" id="course-web-dev">
+                    <label for="course-web-dev">Web dev</label>
+                        <input type="radio" name="course" id="course-app-dev">
+                    <label for="course-app-dev">App dev</label>
+                        <input type="radio" name="course" id="course-ai">
+                    <label for="course-ai">AI</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </body>
+    </html>

@@ -1,0 +1,59 @@
+/* Coding Practice */
+
+/* =================================== */
+
+/* Q1
+Ek HTML page banao jisme:
+1 Heading (<h1>)
+1 Paragraph (<p>)
+1 Button (<button>) */
+
+/* =================================== */
+
+/* Question 2
+
+CSS use karke:
+Heading ko blue karo.
+Paragraph ka font size 18px karo.
+Button ka background green aur text white karo. */
+
+h1 {
+    color: blue;
+}
+p {
+    font-size: 18px;
+}
+button {
+    background-color: white;
+}
+
+/* =================================== */
+
+/* 🐞 Debugging */
+
+/* =================================== */
+
+/* Q1
+Is CSS ko sahi karo:
+h1
+color: blue;
+} */
+
+/* Ans: */
+h1 {
+    color: blue;
+}
+/* =================================== */
+
+/* Q2
+button{
+background green;
+color:white;
+} */
+/* Ans: */
+button {
+    background: green;
+    color: white;
+}
+
+/* =================================== */

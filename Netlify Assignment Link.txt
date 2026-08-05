@@ -1,9 +1,0 @@
-CSS Assignment 01 (Periodic Table)
-  Link: https://rad-shortbread-81a0e3.netlify.app/
-CSS Assignment 03 (Login page UI)
-  Link: https://lucky-kitten-705735.netlify.app/
-CSS Assignment 04 (Contact us page UI)
-  Link: https://polite-kleicha-22ac6f.netlify.app/
-CSS Assignment 06 (Profile card)
-  link: https://darling-puppy-d6c048.netlify.app/
-
