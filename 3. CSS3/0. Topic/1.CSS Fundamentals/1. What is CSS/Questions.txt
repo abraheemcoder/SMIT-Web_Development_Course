@@ -1,0 +1,123 @@
+Concept Questions:
+
+===================================
+
+CSS ka full form kya hai?
+Ans: Cascading Style Sheet.
+
+===================================
+
+CSS kya hai?
+Ans: CSS is a styling language.
+
+===================================
+
+CSS ka main purpose kya hai?
+Ans: Main purpose of CSS is add style on webpage.
+
+===================================
+
+Kya CSS ek programming language hai? Agar nahi, to kya hai?
+Ans: CSS programming language nahi hai, wo ek styling language hai.
+
+===================================
+
+HTML aur CSS mein kya difference hai?
+Ans: Html website stucture banane ka liya hai aur CSS website ko style karna ka liya hai.
+
+===================================
+
+JavaScript aur CSS mein kya difference hai?
+Ans: JavaScript website interactivity add karna ka liya hai aur CSS website ko style karna ka liya hai.
+
+===================================
+
+Ek webpage banane mein HTML, CSS aur JavaScript ka role kya hota hai?
+Ans: Html built webpage stucture, CSS add style on stucture and JavaScript add interactivity on stucture.
+
+===================================
+
+CSS kin 5 cheezon ko style kar sakti hai?
+Ans: fonts, image, button, background color and font color.
+
+===================================
+
+Agar CSS na ho to webpage kaisa dikhega?
+Ans: Plain text, no color etc.
+===================================
+
+Har modern website CSS kyun use karti hai?
+Ans: To make website beautiful.
+
+===================================
+
+Quiz:
+
+===================================
+
+CSS ka full form kya hai?
+A. Computer Style Sheet
+B. Cascading Style Sheets
+C. Creative Style System
+D. Color Style Sheet
+Ans: B
+
+===================================
+
+CSS ka use kis liye hota hai?
+A. Database banane ke liye
+B. Styling ke liye
+C. Backend ke liye
+D. Server banane ke liye
+Ans: B
+
+===================================
+
+Website ki structure kis se banti hai?
+A. CSS
+B. HTML
+C. JavaScript
+D. SQL
+Ans: B
+
+===================================
+
+Website ko beautiful kaun banata hai?
+A. HTML
+B. CSS
+C. JavaScript
+D. Python
+Ans: B
+
+===================================
+
+Interactivity kis language se aati hai?
+A. CSS
+B. HTML
+C. JavaScript
+D. XML
+Ans: C
+
+===================================
+
+True / False
+
+===================================
+
+CSS ek programming language hai.(False)
+HTML webpage ki structure banata hai. (True)
+CSS webpage ko style karti hai. (True)
+JavaScript webpage ko interactive banati hai. (True)
+CSS se colors aur fonts change kiye ja sakte hain. (True)
+
+===================================
+
+Fill in the Blanks
+
+===================================
+
+CSS ka full form _Cascading Style Sheet_.
+HTML webpage ki _structure_ banata hai.
+CSS webpage ko _style_ karti hai.
+JavaScript webpage ko _interactive_ banati hai.
+CSS ek _styling_ language hai.

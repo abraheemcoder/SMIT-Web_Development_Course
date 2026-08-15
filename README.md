@@ -1,2 +1,2 @@
-# My Smit Web Development course is here.
+# My Web Development course is here.
 

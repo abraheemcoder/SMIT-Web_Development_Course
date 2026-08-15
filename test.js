@@ -1,1 +1,3 @@
-let n = 1
+const name = "   Abdul   ";
+
+console.log(name.trim().toUpperCase());
