@@ -1,31 +1,31 @@
 /* Create a business name generator by combining list of adjectives and shop name and another word.
 
 Adjectives:
-1. Crazy
-2. Amazing
-3. Fire
+1. Prime
+2. Urban
+3. Elite
 
 Shop name:
-1. Engine
-2. Foods
-3. Garments
+1. Foods
+2. Traders
+3. Ventures
 
-Another word:
-1. Bros
-2. Limited
-3. Hub 
+Another words:
+1. Hub
+2. Group
+3. Co
 
 Solve this challege without using array. */
 
-const adjective1 = "Crazy";
-const adjective2 = "Amazing";
-const adjective3 = "Fire";
-const shopName1 = "Engine";
-const shopName2 = "Foods";
-const shopName3 = "Garments";
-const anotherWord1 = "Bros";
-const anotherWord2 = "Limited";
-const anotherWord3 = "Hub";
+const adjective1 = "Prime";
+const adjective2 = "Urban";
+const adjective3 = "Elite";
+const shopName1 = "Foods";
+const shopName2 = "Traders";
+const shopName3 = "Ventures";
+const anotherWord1 = "Hub";
+const anotherWord2 = "Group";
+const anotherWord3 = "Co";
 const randomNum1 = Math.random();
 const randomNum2 = Math.random();
 const randomNum3 = Math.random();
@@ -33,23 +33,23 @@ let adjective;
 let shopName;
 let anotherWord;
 
-if (randomNum1 <= 1 / 3) {
+if (randomNum1 <= 0.33) {
   adjective = adjective1;
-} else if (randomNum1 <= 2 / 3) {
+} else if (randomNum1 <= 0.66) {
   adjective = adjective2;
 } else {
   adjective = adjective3;
 }
-if (randomNum2 <= 1 / 3) {
+if (randomNum2 <= 0.33) {
   shopName = shopName1;
-} else if (randomNum2 <= 2 / 3) {
+} else if (randomNum2 <= 0.66) {
   shopName = shopName2;
 } else {
   shopName = shopName3;
 }
-if (randomNum3 <= 1 / 3) {
+if (randomNum3 <= 0.33) {
   anotherWord = anotherWord1;
-} else if (randomNum3 <= 2 / 3) {
+} else if (randomNum3 <= 0.66) {
   anotherWord = anotherWord2;
 } else {
   anotherWord = anotherWord3;
